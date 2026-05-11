@@ -137,7 +137,7 @@ def nested_dictionary():
 
 
 def main():
-    print("\n--- CREATE DICTIONARY ---")
+   # print("\n--- CREATE DICTIONARY ---")
     create_dictionary()
 
     print("\n--- ACCESS VALUES ---")

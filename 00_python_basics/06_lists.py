@@ -3,6 +3,7 @@
 def create_list():
     """Create a simple list"""
     numbers = [1, 2, 3, 4, 5]
+    num=[]
     print("Created list:", numbers)
 
 
@@ -11,6 +12,7 @@ def access_elements():
     fruits = ["apple", "banana", "cherry"]
     print("First element:", fruits[0])
     print("Last element:", fruits[-1])
+    print("Element:",fruits[-2])
 
 
 def modify_elements():
@@ -26,7 +28,7 @@ def add_elements():
     numbers = [1, 2, 3]
 
     numbers.append(4)  # add to end
-    print("After append:", numbers)
+    print("After append:", numbers) 
 
     numbers.insert(1, 10)  # insert at index
     print("After insert:", numbers)
