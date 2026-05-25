@@ -89,7 +89,9 @@ def unpack_tuple():
 
 def nested_tuple():
     """Example of nested tuple"""
-    nested = ((1, 2), (3, 4), (5, 6))
+    nested = ((1, 2), 
+              (3, 4), 
+              (5, 6))
 
     print("Nested tuple:", nested)
     print("Access inner element:", nested[1][0])  # 3 [1]=row,[0]=index 0
@@ -107,38 +109,38 @@ def main():
     print("\n--- CREATE TUPLE ---")
     create_tuple()
 
-    print("\n--- ACCESS ELEMENTS ---")
-    access_elements()
+    # print("\n--- ACCESS ELEMENTS ---")
+    # access_elements()
 
-    print("\n--- TUPLE LENGTH ---")
-    tuple_length()
+    # print("\n--- TUPLE LENGTH ---")
+    # tuple_length()
 
-    print("\n--- SINGLE ELEMENT TUPLE ---")
-    single_element_tuple()
+    # print("\n--- SINGLE ELEMENT TUPLE ---")
+    # single_element_tuple()
 
-    print("\n--- TUPLE SLICING ---")
-    tuple_slicing()
+    # print("\n--- TUPLE SLICING ---")
+    # tuple_slicing()
 
-    print("\n--- LOOP TUPLE ---")
-    loop_tuple()
+    # print("\n--- LOOP TUPLE ---")
+    # loop_tuple()
 
-    print("\n--- CHECK MEMBERSHIP ---")
-    check_membership()
+    # print("\n--- CHECK MEMBERSHIP ---")
+    # check_membership()
 
-    print("\n--- COUNT AND INDEX ---")
-    count_and_index()
+    # print("\n--- COUNT AND INDEX ---")
+    # count_and_index()
 
-    print("\n--- CONVERT TUPLE & LIST ---")
-    convert_tuple_list()
+    # print("\n--- CONVERT TUPLE & LIST ---")
+    # convert_tuple_list()
 
-    print("\n--- UNPACK TUPLE ---")
-    unpack_tuple()
+    # print("\n--- UNPACK TUPLE ---")
+    # unpack_tuple()
 
-    print("\n--- NESTED TUPLE ---")
-    nested_tuple()
+    # print("\n--- NESTED TUPLE ---")
+    # nested_tuple()
 
-    print("\n--- TUPLE IMMUTABILITY ---")
-    tuple_immutability()
+    # print("\n--- TUPLE IMMUTABILITY ---")
+    # tuple_immutability()
 
 
 if __name__ == "__main__":
