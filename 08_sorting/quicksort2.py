@@ -15,6 +15,10 @@ def quickSort(unsorted_list):
         else:
             right.append(number)
 
+    print(f"pivot{pivot}")
+    print(f"left{left}")
+    print(f"right{right}")
+
     return quickSort(left) + [pivot] + quickSort(right)
 
 def getValues():

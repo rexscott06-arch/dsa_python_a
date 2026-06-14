@@ -2,7 +2,7 @@ import random
 
 
 def mergeSort(unsorted_list):
-    if len(unsorted_list) <= 1:
+    if len(unsorted_list) <= 1: 
         return unsorted_list
     mid = len(unsorted_list) // 2
     left_half = mergeSort(unsorted_list[:mid])
